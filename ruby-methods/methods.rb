@@ -30,6 +30,13 @@ phase("Phase-1 was all about Introduction to Programming.","Phase-2 was all abou
 #ID is: 2
 #Color is: Black
 #Name is: XYZ
+def pass_params(object)
+    object.map{
+        |key|
+        puts "ID is: #{key[:id]}\nColor is:#{key[:color]}\nName is:#{key[:name]}"
+    }
+end
+pass_params([{id:1,color:"red",name: "Ivy"},{id:2,color:"blue",name: "Geoff"}])
 
 
 # nimeongeza hii line
