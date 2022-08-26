@@ -6,6 +6,11 @@ def print_data(value)
 end
 puts print_data("Hello")
 ## Q2 You have a string, "I love espresso", return the length of the string
+def print_string(value)
+    puts value.length
+end
+puts print_string("I love espresso")
+
 
 ## Q3 Write a method where var1 and var2 are the parameters. Call the method. The statements to be executed are:
 #"Phase-1 was all about Introduction to Programming."
