@@ -12,7 +12,7 @@ def print_string(value)
 end
 puts print_string("I love espresso")
 
-ALT METHOD
+#ALT METHOD
 ## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
 def helo(name)
     puts "Hello #{name}"
