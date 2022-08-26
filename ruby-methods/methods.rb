@@ -1,4 +1,18 @@
 # Ruby Methods
+
+
+## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
+def print_data(value)
+    puts value
+end
+puts print_data("Hello")
+## Q2 You have a string, "I love espresso", return the length of the string
+def print_string(value)
+    puts value.length
+end
+puts print_string("I love espresso")
+
+ALT METHOD
 ## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
 def helo(name)
     puts "Hello #{name}"
@@ -8,6 +22,7 @@ helo('job')
 def print_string_length(value)
     puts value.length
 end
+
 
 ## Q3 Write a method where var1 and var2 are the parameters. Call the method. The statements to be executed are:
 #"Phase-1 was all about Introduction to Programming."
